@@ -16,13 +16,13 @@
 		<activemq-broker.version>5.15.11</activemq-broker.version>
 		<!-- <activemq-kahadb-store.version>5.14.5</activemq-kahadb-store.version> -->
 		<mule.version>3.9.2</mule.version>
-		<mule.tools.version>1.7</mule.tools.version>
+		<mule.tools.version>2.3.2</mule.tools.version>
 	</properties>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-app-maven-plugin</artifactId>
+				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
